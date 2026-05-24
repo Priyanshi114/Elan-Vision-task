@@ -36,3 +36,28 @@ gsap.to(".particle", {
   ease: "sine.inOut"
 });
 
+// Show form when Register button is clicked
+document.getElementById("registerBtn").addEventListener("click", () => {
+  document.getElementById("registerForm").style.display = "block";
+});
+
+document.getElementById("registerForm").addEventListener("submit", async (e) => {
+  e.preventDefault(); 
+
+  const userData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    password: document.getElementById("password").value
+  };
+
+  const response = await fetch("/register", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(userData)
+  });
+
+  if (response.ok) {
+    document.getElementById("registerForm").style.display = "none";
+    document.getElementById("successMessage").style.display = "block";
+  }
+});
