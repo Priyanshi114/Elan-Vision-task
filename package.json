@@ -3,8 +3,7 @@
   "dependencies": {
     "ejs": "^5.0.2",
     "express": "^5.2.1",
-    "mongoose": "^9.6.2",
-    "node.js": "^0.0.1-security"
+    "mongoose": "^9.6.2"
   },
   "name": "task-web",
   "version": "1.0.0",
