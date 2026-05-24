@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   
+=======
+>>>>>>> 7e22b6ccd81638b1f2d6882814a88b5762b1b73f
   "dependencies": {
     "ejs": "^5.0.2",
     "express": "^5.2.1",
@@ -11,8 +14,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 7e22b6ccd81638b1f2d6882814a88b5762b1b73f
   },
   "keywords": [],
   "author": "",
