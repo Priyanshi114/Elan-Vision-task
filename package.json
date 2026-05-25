@@ -1,7 +1,7 @@
 {
   "name": "task-web",
   "version": "1.0.0",
-  "description": "This is a task about front page of a website of Elan &amp; ηVision ( a college event ).",
+  "description": "This is a task about front page of a website of Elan & ηVision (a college event).",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,8 +21,8 @@
   "homepage": "https://github.com/Priyanshi114/Elan-Vision-task#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^4.18.2",
-    "mongoose": "^7.6.3",
+    "express": "^5.4.1",
+    "mongoose": "^9.6.2",
     "nodemon": "^3.1.14"
   }
 }
